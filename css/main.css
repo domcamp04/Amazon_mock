@@ -53,10 +53,12 @@ input{
 .separator{
     display: flex;
     align-items: center;
+    margin-right: 530px;
+    margin-left: 530px;
   }
   
 .separator p{
-    padding: 0 2rem; /* creates the space */
+    padding: 0 2rem;
   }
   
 .separator .line{
