@@ -1,3 +1,95 @@
 body{
-    background-color: rgb(0, 12, 122);
+    font-size: 15px;
+    line-height: 25px;
+    color: black;
+    font-family: Arial;
 }
+
+img{
+    margin: auto;
+    display: block;
+  }
+
+#sign_in_border{
+    position: static;
+    margin: 0 auto;
+    border-color: #c0bfbf;
+    border: 0.5px solid #c0bfbf;
+    border-radius: 5px;
+    width: 350px;
+    height: 350px;
+    padding-left: 25px;
+  }
+
+  #sign_in{
+    font-family: arial;
+    font-size: 30px;
+  }
+
+input{
+    border-left-color: #c0bfbf;
+    border-right-color: #c0bfbf;
+    border-width: 1px;
+    border-radius: 5px;
+    height: 25px;
+    width: 315px;
+    margin-bottom: 15px;
+  }
+
+#pass{
+    margin-left: 100px;
+}
+
+#continue{
+    width:325px;
+    height:30px;
+    font-size:15px;
+    background: #eeba38;
+    border: 1px solid #c0bfbf;
+    border-radius:2px;
+    margin-top: 10px;
+}
+
+.separator{
+    display: flex;
+    align-items: center;
+  }
+  
+.separator p{
+    padding: 0 2rem; /* creates the space */
+  }
+  
+.separator .line{
+    flex: 1;
+    height: 1px;
+    background-color: #c0bfbf;
+  }
+
+#create_account{
+    margin-top: px;
+    margin-bottom: 25px;
+  }
+
+#new_account{
+    background: #e7e9ec;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width:325px;
+    height:30px;
+    font-size:14px;
+    border: 1px solid #c0bfbf;
+    border-radius:2px;
+    margin: auto;
+    display: block;
+  }
+
+.links{
+    font-size: 10px;
+    text-align: center;
+  }
+
+.links a{
+    text-decoration: none;
+}
+
+
